@@ -18,6 +18,7 @@ class ChangeHistoryScreen extends StatefulWidget {
   State<ChangeHistoryScreen> createState() => _ChangeHistoryScreenState();
 }
 
+
 class _ChangeHistoryScreenState extends State<ChangeHistoryScreen> {
   final _fmt = DateFormat('yyyy-MM-dd HH:mm');
 
