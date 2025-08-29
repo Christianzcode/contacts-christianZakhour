@@ -13,7 +13,7 @@ class ContactsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ContactsRepository repo = Injector.instance.repo; // 👈 from DI
+    final ContactsRepository repo = Injector.instance.repo;
     return MultiBlocProvider(
       providers: [
         BlocProvider(create: (_) => ContactsBloc(repo)),

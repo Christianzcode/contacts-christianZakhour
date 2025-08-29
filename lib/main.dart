@@ -4,6 +4,6 @@ import 'core/di/injector.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Injector.initDependencies(); // 👈 init DI first
+  await Injector.initDependencies();
   runApp(const ContactsApp());
 }
